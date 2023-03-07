@@ -1,0 +1,135 @@
+.Header {
+    background-color: #ff2058;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    box-shadow: 0px 0px 8px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 90;
+}
+
+.HeaderContent {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.HeaderContent h2 {
+    color: #f2ed3f;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.HeaderContent img {
+    margin: 0 10px;
+    height: 50px;
+    width: 90%;
+}
+
+.HeaderLogo {
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+}
+
+.HeaderList {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.HeaderList .NavLink {
+    margin: auto 7px;
+    font-weight: bold;
+    text-decoration: inherit;
+    color: #ffff;
+    font-size: 1.6rem;
+}
+
+.HeaderList .NavLink:hover {
+    color: #f2ed3f;
+    transition: 0.5s ease-in-out;
+}
+
+.Menu {
+    display: none;
+}
+
+
+/* styles for mobile */
+
+@media  (max-width: 980px){
+
+    .Header {
+        height: 200px;
+    }
+
+    .HeaderContent img {
+        height: 80px;
+        width: 40%;
+    }  
+
+    .HeaderContent h2 {
+        font-size: 5.5rem;
+        padding-left: 15px;
+        width: 60%;
+    }
+
+    .HeaderList .NavLink {
+        display: none;
+        visibility: hidden;
+    }
+    
+
+    .Menu {
+        display: grid;
+        height: 80px;
+        width:  70%;
+        justify-content: end;
+        color: #ffff;
+        margin-right: 15px;
+    }
+
+    .Menu:active,
+    .Menu:focus  {
+        background-color: black;
+        opacity: 30%;
+        width:  fit-content;
+        transition: 0.5s ease-in-out;
+    }
+
+    .MobileHeaderList {
+        width: 200px;
+        height: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-decoration: none;
+        background-color: #ffff;
+        transition: 0.5s ease-in-out;
+        box-shadow: 0 5px 5px;
+        justify-content: left;
+        position: absolute;
+        top: 150px;
+        right: 15px;
+    }
+
+    .MobileHeaderList .NavLink {
+        font-size: 2.5rem;
+        text-decoration: none;
+        align-items: flex-start;
+        color: #f2ed3f;
+        justify-self: start;
+        float: inline-start;
+        padding: 5px 15px;
+        margin: 10px 5px 0 5px;
+    }
+}

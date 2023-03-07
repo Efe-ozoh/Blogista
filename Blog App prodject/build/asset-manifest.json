@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Blogista/static/css/main.36b57be2.chunk.css",
+    "main.js": "/Blogista/static/js/main.21dd096b.chunk.js",
+    "main.js.map": "/Blogista/static/js/main.21dd096b.chunk.js.map",
+    "runtime-main.js": "/Blogista/static/js/runtime-main.ecace9cf.js",
+    "runtime-main.js.map": "/Blogista/static/js/runtime-main.ecace9cf.js.map",
+    "static/js/2.05edbe2d.chunk.js": "/Blogista/static/js/2.05edbe2d.chunk.js",
+    "static/js/2.05edbe2d.chunk.js.map": "/Blogista/static/js/2.05edbe2d.chunk.js.map",
+    "index.html": "/Blogista/index.html",
+    "precache-manifest.54ffd5c717ca85f83151ce1d11faec03.js": "/Blogista/precache-manifest.54ffd5c717ca85f83151ce1d11faec03.js",
+    "service-worker.js": "/Blogista/service-worker.js",
+    "static/css/main.36b57be2.chunk.css.map": "/Blogista/static/css/main.36b57be2.chunk.css.map",
+    "static/media/Blog-logo.png": "/Blogista/static/media/Blog-logo.36410710.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecace9cf.js",
+    "static/js/2.05edbe2d.chunk.js",
+    "static/css/main.36b57be2.chunk.css",
+    "static/js/main.21dd096b.chunk.js"
+  ]
+}

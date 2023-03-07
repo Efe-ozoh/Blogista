@@ -1,0 +1,10 @@
+body {
+     position: relative;
+    padding-bottom: 150px;
+}
+
+/* @media  (max-width: 600px){
+    body{
+       min-height: 40vh;
+    }
+} */

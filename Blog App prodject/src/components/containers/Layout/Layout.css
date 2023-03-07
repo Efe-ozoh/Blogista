@@ -1,0 +1,9 @@
+.Layout {
+    margin: 0;
+}
+
+.DarkMode {
+    margin: 0;
+    background-color: black;
+    /* transition: 0.3s ease-in-out; */
+}

@@ -1,0 +1,42 @@
+.Add {
+    width: 100px;
+    height: 100px;
+    background-color: #ff2058;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #f2ed3f;
+    border-radius: 100%;
+    /* text-align: center; */
+    top: 65%;
+    right: 20%;
+    z-index: 100;
+    position: fixed;
+    box-shadow: 0 0 10px black;
+    justify-content: center;
+}
+
+h1 {
+    /* padding-bottom: 10%; */
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Link {
+    text-decoration: none;
+    outline: none;
+}
+
+@media (max-width: 980px) {
+    .Add {
+        width: 150px;
+        height: 150px;
+        margin-top: 10%;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+
+}

@@ -1,0 +1,97 @@
+.Footer {
+    height: 120px;
+    width: 100%;
+    background-color: #ff2058;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.copywrite{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.copywrite b{
+    font-size: 1rem;
+    color: #f2ed3f;
+}
+
+.info {
+    width: 50%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.info a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    color: #ffff;
+}
+
+.info a:hover {
+    color: #f2ed3f;
+    transition: 0.5s ease-in-out;
+}
+
+.infoItems {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: inherit;
+    margin: 0 5px;
+
+}
+
+.icon {
+    height: 1.5rem;
+    padding: 0 2px;
+    align-items: center;
+}
+
+.Facebook {
+    color: blue;
+}
+
+.twitter {
+    color: rgb(101, 170, 235)
+}
+
+.instagram {
+    color: rgb(158, 19, 19);
+}
+
+.email {
+    color: white;
+}
+
+/* mobile styles */
+
+@media  (max-width: 980px){
+    .Footer {
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .info a  {
+        font-size: 2.5rem;
+    }
+
+    .icon {
+        height: 3rem;
+    }
+
+    .infoItems {
+        margin: 0px 15px;
+    }
+
+    .copywrite {
+        font-size: 2.5rem;
+    }
+}
